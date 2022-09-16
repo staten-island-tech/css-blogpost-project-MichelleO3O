@@ -1,36 +1,49 @@
 body {
-  background-color: #3e56cf;
+  background-color: cornflowerblue;
+  font-family: "Baloo 2", cursive;
+  font-family: "Varela Round", sans-serif;
 }
 
 .top-bar {
-  color: #2b18a3;
+  color: #8375e0;
+  font-size: 60px;
   text-align: center;
-  background-color: #459cc4;
-  padding: 0.8%;
+  background-image: url(img/Pastel\ Fish.jpg);
+  background-size: cover;
+  padding: 10%;
 }
 
 .title {
-  color: #0b0f99;
+  color: #293a93;
+  font-size: 30px;
   text-align: center;
 }
 
+.puffer-blurb {
+  background-color: rgb(160, 234, 245);
+  height: 70vh;
+  width: 70vw;
+  margin: 15px auto;
+}
+
+.jelly-blurb {
+  background-color: rgb(160, 234, 245);
+  height: 70vh;
+  width: 70vw;
+  margin: 15px auto;
+}
+
+.tuna-blurb {
+  background-color: rgb(160, 234, 245);
+  height: 70vh;
+  width: 70vw;
+  margin: 15px auto;
+}
+
 .tuna-post {
-  background-color: red;
-  height: 70vh;
-  width: 60vw;
-  margin: 15px auto;
+  font-size: 30px;
+  text-align: center;
 }
-
-.puffer-post {
-  background-color: red;
-  height: 70vh;
-  width: 60vw;
-  margin: 15px auto;
-}
-
-.jelly-post {
-  background-color: red;
-  height: 70vh;
-  width: 60vw;
-  margin: 15px auto;
+.tuna-writing {
+  font-size: 15px;
 }
