@@ -22,21 +22,41 @@ body {
 .puffer-blurb {
   background-color: rgb(160, 234, 245);
   height: 70vh;
-  width: 70vw;
+  width: 50vw;
   margin: 15px auto;
+}
+
+.puffer-post {
+  font-size: 30px;
+  text-align: center;
+}
+
+.puffer-writing {
+  font-size: 25px;
+  text-align: center;
 }
 
 .jelly-blurb {
   background-color: rgb(160, 234, 245);
   height: 70vh;
-  width: 70vw;
+  width: 50vw;
   margin: 15px auto;
+}
+
+.jelly-post {
+  font-size: 30px;
+  text-align: center;
+}
+
+.jelly-writing {
+  font-size: 25px;
+  text-align: center;
 }
 
 .tuna-blurb {
   background-color: rgb(160, 234, 245);
   height: 70vh;
-  width: 70vw;
+  width: 50vw;
   margin: 15px auto;
 }
 
@@ -45,5 +65,9 @@ body {
   text-align: center;
 }
 .tuna-writing {
-  font-size: 15px;
+  font-size: 25px;
+  text-align: center;
+}
+
+img {
 }
