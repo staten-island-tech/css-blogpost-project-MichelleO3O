@@ -46,7 +46,8 @@ body {
 }
 
 .jelly-blurb img {
-  width: 500px;
+  max-width: 55%;
+  height: auto;
 }
 
 .jelly-post {
