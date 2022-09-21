@@ -4,11 +4,11 @@ body {
   font-family: "Varela Round", sans-serif;
 }
 
-.top-bar {
-  color: #8375e0;
+#main-header {
+  color: #293a93;
   font-size: 60px;
   text-align: center;
-  background-image: url(img/Pastel\ Fish.jpg);
+  background-image: url(img/better\ fish\ banner.jpg);
   background-size: cover;
   padding: 10%;
 }
@@ -27,13 +27,19 @@ body {
   border-radius: 20px;
 }
 
+.puffer-blurb img {
+  border-radius: 0;
+  max-width: 55%;
+  height: auto;
+}
+
 .puffer-post {
   font-size: 30px;
   text-align: center;
 }
 
 .puffer-writing {
-  font-size: 25px;
+  font-size: 15px;
   text-align: center;
 }
 
@@ -46,6 +52,7 @@ body {
 }
 
 .jelly-blurb img {
+  border-radius: 0;
   max-width: 55%;
   height: auto;
 }
@@ -56,7 +63,7 @@ body {
 }
 
 .jelly-writing {
-  font-size: 25px;
+  font-size: 15px;
   text-align: center;
 }
 
@@ -68,11 +75,26 @@ body {
   border-radius: 20px;
 }
 
-.tuna-post {
+.images {
+  border-radius: 0;
+  max-width: 55%;
+  height: auto;
+  position: relative;
+  left: 22.5%;
+  bottom: 5%;
+}
+
+.blurb-headers {
   font-size: 30px;
   text-align: center;
+  padding-top: 25px;
 }
 .tuna-writing {
-  font-size: 25px;
+  font-size: 15px;
   text-align: center;
+}
+
+a {
+  margin-bottom: 25px;
+  margin-left: 39.5%;
 }
